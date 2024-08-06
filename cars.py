@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 import altair as alt
 
 # Disable the warning
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 categorical_cols = ['car_model', 'transmission', 'fuelType', 'brand', 'customer_gender', 'store_location', 'paymentmethod', 'customer_marital_status', 'marketingcampaign']
 label_encoders = {}
